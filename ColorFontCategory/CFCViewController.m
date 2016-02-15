@@ -13,6 +13,10 @@
 
 @interface CFCViewController ()
 
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *subtitleLabel;
+@property (nonatomic, strong) UILabel *informationLabel;
+
 @end
 
 @implementation CFCViewController
