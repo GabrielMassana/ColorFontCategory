@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A46A2C61C710B6A0075EE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46A2C51C710B6A0075EE3A /* main.m */; };
+		7A46A2C91C710B6A0075EE3A /* CFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46A2C81C710B6A0075EE3A /* CFCAppDelegate.m */; };
+		7A46A2CC1C710B6A0075EE3A /* CFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46A2CB1C710B6A0075EE3A /* CFCViewController.m */; };
+		7A46A2CF1C710B6A0075EE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2CD1C710B6A0075EE3A /* Main.storyboard */; };
+		7A46A2D11C710B6A0075EE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2D01C710B6A0075EE3A /* Assets.xcassets */; };
+		7A46A2D41C710B6A0075EE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2D21C710B6A0075EE3A /* LaunchScreen.storyboard */; };
+		7A46A2DD1C710C160075EE3A /* UIColor+CFCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46A2DC1C710C160075EE3A /* UIColor+CFCColor.m */; };
+		7A46A2E01C710C260075EE3A /* UIFont+CFCFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A46A2DF1C710C260075EE3A /* UIFont+CFCFont.m */; };
+		7A46A2E41C710E940075EE3A /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2E11C710E940075EE3A /* Alegreya-Black.ttf */; };
+		7A46A2E51C710E940075EE3A /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2E21C710E940075EE3A /* Alegreya-Bold.ttf */; };
+		7A46A2E61C710E940075EE3A /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A46A2E31C710E940075EE3A /* Alegreya-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A46A2C11C710B6A0075EE3A /* ColorFontCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFontCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A46A2C51C710B6A0075EE3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A46A2C71C710B6A0075EE3A /* CFCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFCAppDelegate.h; sourceTree = "<group>"; };
+		7A46A2C81C710B6A0075EE3A /* CFCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCAppDelegate.m; sourceTree = "<group>"; };
+		7A46A2CA1C710B6A0075EE3A /* CFCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFCViewController.h; sourceTree = "<group>"; };
+		7A46A2CB1C710B6A0075EE3A /* CFCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCViewController.m; sourceTree = "<group>"; };
+		7A46A2CE1C710B6A0075EE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A46A2D01C710B6A0075EE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A46A2D31C710B6A0075EE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A46A2D51C710B6A0075EE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A46A2DB1C710C160075EE3A /* UIColor+CFCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFCColor.h"; sourceTree = "<group>"; };
+		7A46A2DC1C710C160075EE3A /* UIColor+CFCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFCColor.m"; sourceTree = "<group>"; };
+		7A46A2DE1C710C260075EE3A /* UIFont+CFCFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CFCFont.h"; sourceTree = "<group>"; };
+		7A46A2DF1C710C260075EE3A /* UIFont+CFCFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CFCFont.m"; sourceTree = "<group>"; };
+		7A46A2E11C710E940075EE3A /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+		7A46A2E21C710E940075EE3A /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		7A46A2E31C710E940075EE3A /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A46A2BE1C710B6A0075EE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A46A2B81C710B6A0075EE3A = {
+			isa = PBXGroup;
+			children = (
+				7A46A2C31C710B6A0075EE3A /* ColorFontCategory */,
+				7A46A2C21C710B6A0075EE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A46A2C21C710B6A0075EE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A46A2C11C710B6A0075EE3A /* ColorFontCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A46A2C31C710B6A0075EE3A /* ColorFontCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7A46A2C71C710B6A0075EE3A /* CFCAppDelegate.h */,
+				7A46A2C81C710B6A0075EE3A /* CFCAppDelegate.m */,
+				7A46A2CA1C710B6A0075EE3A /* CFCViewController.h */,
+				7A46A2CB1C710B6A0075EE3A /* CFCViewController.m */,
+				7A46A2DB1C710C160075EE3A /* UIColor+CFCColor.h */,
+				7A46A2DC1C710C160075EE3A /* UIColor+CFCColor.m */,
+				7A46A2DE1C710C260075EE3A /* UIFont+CFCFont.h */,
+				7A46A2DF1C710C260075EE3A /* UIFont+CFCFont.m */,
+				7A46A2E11C710E940075EE3A /* Alegreya-Black.ttf */,
+				7A46A2E21C710E940075EE3A /* Alegreya-Bold.ttf */,
+				7A46A2E31C710E940075EE3A /* Alegreya-Regular.ttf */,
+				7A46A2CD1C710B6A0075EE3A /* Main.storyboard */,
+				7A46A2D01C710B6A0075EE3A /* Assets.xcassets */,
+				7A46A2D21C710B6A0075EE3A /* LaunchScreen.storyboard */,
+				7A46A2D51C710B6A0075EE3A /* Info.plist */,
+				7A46A2C41C710B6A0075EE3A /* Supporting Files */,
+			);
+			path = ColorFontCategory;
+			sourceTree = "<group>";
+		};
+		7A46A2C41C710B6A0075EE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A46A2C51C710B6A0075EE3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A46A2C01C710B6A0075EE3A /* ColorFontCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A46A2D81C710B6A0075EE3A /* Build configuration list for PBXNativeTarget "ColorFontCategory" */;
+			buildPhases = (
+				7A46A2BD1C710B6A0075EE3A /* Sources */,
+				7A46A2BE1C710B6A0075EE3A /* Frameworks */,
+				7A46A2BF1C710B6A0075EE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorFontCategory;
+			productName = ColorFontCategory;
+			productReference = 7A46A2C11C710B6A0075EE3A /* ColorFontCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A46A2B91C710B6A0075EE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabriel Massana";
+				TargetAttributes = {
+					7A46A2C01C710B6A0075EE3A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7A46A2BC1C710B6A0075EE3A /* Build configuration list for PBXProject "ColorFontCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A46A2B81C710B6A0075EE3A;
+			productRefGroup = 7A46A2C21C710B6A0075EE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A46A2C01C710B6A0075EE3A /* ColorFontCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A46A2BF1C710B6A0075EE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A46A2D41C710B6A0075EE3A /* LaunchScreen.storyboard in Resources */,
+				7A46A2D11C710B6A0075EE3A /* Assets.xcassets in Resources */,
+				7A46A2E51C710E940075EE3A /* Alegreya-Bold.ttf in Resources */,
+				7A46A2E41C710E940075EE3A /* Alegreya-Black.ttf in Resources */,
+				7A46A2CF1C710B6A0075EE3A /* Main.storyboard in Resources */,
+				7A46A2E61C710E940075EE3A /* Alegreya-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A46A2BD1C710B6A0075EE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A46A2DD1C710C160075EE3A /* UIColor+CFCColor.m in Sources */,
+				7A46A2CC1C710B6A0075EE3A /* CFCViewController.m in Sources */,
+				7A46A2E01C710C260075EE3A /* UIFont+CFCFont.m in Sources */,
+				7A46A2C91C710B6A0075EE3A /* CFCAppDelegate.m in Sources */,
+				7A46A2C61C710B6A0075EE3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A46A2CD1C710B6A0075EE3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A46A2CE1C710B6A0075EE3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A46A2D21C710B6A0075EE3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A46A2D31C710B6A0075EE3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A46A2D61C710B6A0075EE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A46A2D71C710B6A0075EE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A46A2D91C710B6A0075EE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorFontCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.ColorFontCategory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A46A2DA1C710B6A0075EE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorFontCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.ColorFontCategory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A46A2BC1C710B6A0075EE3A /* Build configuration list for PBXProject "ColorFontCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A46A2D61C710B6A0075EE3A /* Debug */,
+				7A46A2D71C710B6A0075EE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A46A2D81C710B6A0075EE3A /* Build configuration list for PBXNativeTarget "ColorFontCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A46A2D91C710B6A0075EE3A /* Debug */,
+				7A46A2DA1C710B6A0075EE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A46A2B91C710B6A0075EE3A /* Project object */;
+}
