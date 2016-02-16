@@ -100,7 +100,8 @@
     
     [self.subtitleLabel autoPinEdge:ALEdgeTop
                              toEdge:ALEdgeBottom
-                             ofView:self.titleLabel];
+                             ofView:self.titleLabel
+                         withOffset:10.0f];
     
     [self.subtitleLabel autoPinEdgeToSuperviewEdge:ALEdgeLeft];
     
@@ -110,7 +111,8 @@
     
     [self.informationLabel autoPinEdge:ALEdgeTop
                                 toEdge:ALEdgeBottom
-                                ofView:self.subtitleLabel];
+                                ofView:self.subtitleLabel
+                            withOffset:20.0f];
     
     [self.informationLabel autoPinEdgeToSuperviewEdge:ALEdgeLeft];
     
